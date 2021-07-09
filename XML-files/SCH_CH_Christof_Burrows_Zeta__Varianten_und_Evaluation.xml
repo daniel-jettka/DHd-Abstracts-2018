@@ -127,7 +127,7 @@
                         <graphic url="SCH_CH_Christof_Burrows_Zeta__Varianten_und_Evaluation-1000020100000522000003CDE24B21AB28677D48.png"/>
                         <head>Abbildung 1: Scatterplot der Wörter in zwei Textgruppen (französische Komödien und Tragödien): “document proportions” der Wörter in zwei Textgruppen (x- und y-Achse) und resultierende Zeta-Werte (Distanz von der Diagonale).</head>
                     </figure>
-                    <p>Eine bekannte Implementierung von Zeta existiert im stylo-Paket für Rin der Funktion "oppose()" (Eder et al. 2016). Abbildung 2 zeigt für ein Beispiel die Ergebnisdarstellung in der hier verwendeten “pyzeta”-Implementierung. </p>
+                    <p>Eine bekannte Implementierung von Zeta existiert im <rs key="Stylo" ana="#Bib.Ref">stylo</rs>-Paket für Rin der Funktion "oppose()" (Eder et al. 2016). Abbildung 2 zeigt für ein Beispiel die Ergebnisdarstellung in der hier verwendeten “pyzeta”-Implementierung. </p>
                 </p>
                 <p>
                     <figure>

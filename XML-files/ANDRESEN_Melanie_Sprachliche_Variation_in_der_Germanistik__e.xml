@@ -123,7 +123,7 @@
                         url="ANDRESEN_Melanie_Sprachliche_Variation_in_der_Germanistik__e-image2.png"/>
                 </figure>
                 <p>Abbildung 2: Die distinktivsten Wortarten, visualisiert anhand der Teststatistik t. Visualisierung inspiriert durch das R-Paket 
-                    <hi rend="italic">stylo</hi> (Eder et al. 2016).
+                    <hi rend="italic"><rs key="Stylo" ana="#Bib.Ref">stylo</rs></hi> (Eder et al. 2016).
                 </p>
                 <p>Ergänzend werden in Tabelle 1 Informationen auf Wortebene herangezogen, zunächst ohne zusätzliche syntaktische Information. Gezeigt werden die zehn distinktivsten linearen Trigramme (inkl. Interpunktion). Hier spiegeln sich viele der Phänomene, die bereits auf Ebene der Wortarten erkennbar waren. Die für die Literaturwissenschaft charakteristischen Muster scheinen mehrheitlich aus Relativsätzen zu stammen. Dabei ist zu bedenken, dass der Anfang von Nebensätzen besonders leicht durch eine n-Gramm-Analyse erfasst werden kann, da hier nur ein begrenztes Maß an Variation möglich ist. Das klarste Trigramm für die Linguistik hingegen weist auf die bereits beschriebene häufigere Verwendung von Passiv und Modalverben hin, hier speziell in Kombination miteinander. Interessant ist das n-Gramm
                     <hi rend="italic"> die bei der</hi>, das in 36 von 43 Fällen aus einem Relativsatz stammt, aber in der Linguistik häufiger ist. Mit dem Relativpronomen 

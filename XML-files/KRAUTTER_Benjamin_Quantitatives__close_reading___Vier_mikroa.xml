@@ -196,7 +196,7 @@
         <back>
             <div type="notes">
                 <note xml:id="ftn1" n="1">
-                    Die Zahlen geben den Akt des Dramas wieder, dem die Figurenrede entnommen ist. Abbildung 1 und Abbildung 2 wurden mit Hilfe des ‚stylo'-Pakets für R angefertigt (Eder, Kestemont, Rybicki 2013).
+                    Die Zahlen geben den Akt des Dramas wieder, dem die Figurenrede entnommen ist. Abbildung 1 und Abbildung 2 wurden mit Hilfe des ‚<rs key="Stylo" ana="#Bib.Ref">stylo</rs>'-Pakets für R angefertigt (Eder, Kestemont, Rybicki 2013).
                 </note>
                 <note xml:id="ftn2" n="2">
                     Alle untersuchten Dramen entstammen dem Textgrid Repository.
