@@ -96,10 +96,10 @@
                     <hi rend="italic">CATMA</hi> (Meister et al. 2016). Diese Werkzeuge bieten zahlreiche Funktionalitäten, die für viele Sprachen und Anwendungen ausreichend sind. Die Unterstützung verschiedener Skripten erweckt den Eindruck, dass diese Werkzeuge für die Annotation aller Sprachkorpora erfolgreich eingesetzt werden können, was solange korrekt ist, wie man sehr flache Annotation durchführt.
                 </p>
                 <p>Tiefere Annotationen, insbesondere für Sprachen außerhalb der Europäischen Sprachfamilie oder für historische Sprachen, dagegen gestalten sich problematischer. Häufig jedoch wird die Verwendung bereits etablierter Annotationstools trotzdem bevorzugt, weil diese eine reibungslose Integration mit weiteren Analyse- und Visualisierungs-Tools wie z.B. 
-                    <hi rend="italic">ANNIS</hi> (Krause &amp; Zeldes 2016) versprechen. In diesem Beitrag werden wir zeigen, dass die Entwicklung dedizierter Annotationswerkzeuge dann als Lösung in Betracht gezogen werden kann, wenn gleichzeitig Schnittstellen (z.B. zu Analyse-Tools) entwickelt werden, die die Neuentwicklung wiederum an vorhandene Software und Infrastrukturen anbinden. Auf diese Weise können die Nachteile einer Neuentwicklung unter Gesichtspunkten der nachhaltigen Entwicklung von Forschungssoftware gegenüber der Anpassung bestehender Tools - bei gleichzeitiger Ermöglichung eines spezialisierten Anwendungsfalles - weitgehend abgeschwächt werden. Der Vorteil eines solchen Verfahrens ist die Realisierung eines Annotationsmodells, das exakt den Besonderheiten der Sprache entspricht. 
+                    <hi rend="italic"><rs key="ANNIS" ana="#Bib.Ref">ANNIS</rs></hi> (Krause &amp; Zeldes 2016) versprechen. In diesem Beitrag werden wir zeigen, dass die Entwicklung dedizierter Annotationswerkzeuge dann als Lösung in Betracht gezogen werden kann, wenn gleichzeitig Schnittstellen (z.B. zu Analyse-Tools) entwickelt werden, die die Neuentwicklung wiederum an vorhandene Software und Infrastrukturen anbinden. Auf diese Weise können die Nachteile einer Neuentwicklung unter Gesichtspunkten der nachhaltigen Entwicklung von Forschungssoftware gegenüber der Anpassung bestehender Tools - bei gleichzeitiger Ermöglichung eines spezialisierten Anwendungsfalles - weitgehend abgeschwächt werden. Der Vorteil eines solchen Verfahrens ist die Realisierung eines Annotationsmodells, das exakt den Besonderheiten der Sprache entspricht. 
                     <anchor xml:id="id_docs-internal-guid-26467f60-f67e-25d0-ff59-7f8f2e91845b"/>Insbesondere für diachrone Analysen ist es häufig nötig, dass man eine sehr detaillierte Modellierung der morphologischen, syntaktischen und semantischen Merkmale vornimmt, da die Unterschiede häufig nur im Detail reflektiert sind. Im Einzelnen werden wir die Entwicklung des 
                     <hi rend="italic">GeTa</hi>-Annotationstools, eines Mehrebenenannotationswerkzeugs für die Altäthiopische Sprache, und dessen Integration mit dem Such- und Visualisierungsframework 
-                    <hi rend="italic">ANNIS</hi> darstellen.
+                    <hi rend="italic"><rs key="ANNIS">ANNIS</rs></hi> darstellen.
                 </p>
             </div>
             <div type="div1" rend="DH-Heading1">
@@ -125,22 +125,22 @@
                     <item>Ein Buchstaben-Objekt hat immer eine ID und ein Label (das graphische Symbol).</item>
                 </list>
                 <p>Graphische Einheiten können in mehreren Tokens geteilt werden. Die Tokens sind getrennt gespeichert (mit eigenenen IDs) und verlinkt mit der graphischen Einheit. Elemente der Textstruktur werden durch selbständige Objekte dargestellt, die mit den beinhalteten Tokens verlinkt werden. Editorische Annotationen werden mit den graphischen Einheiten verlinkt. Eine derartig stark vernetzte komplexe Struktur ist mit XML schwierig zu modellieren, insbesondere bei manueller Annotation. Auch die maschinelle Verarbeitung einer derartig tief vernetzten TEI-Struktur wäre sehr kompliziert. Alternativ bietet JSON für dieses Modell eine bessere Handhabbarkeit. Wir haben uns daher entschieden, die Daten in JSON zu speichern und zusätzlich XML-Export zu implementieren. Die Datenstruktur ist in vier JSON-Dateien gespeichert: eine für die graphischen Einheiten, eine für die Tokens, je eine für weitere Annotationsebenen (Textstruktur und Edition). Diese JSON-Dateisammlung wird via Konverterschnittstelle nach 
-                    <hi rend="italic">ANNIS</hi> importiert.
+                    <hi rend="italic"><rs key="ANNIS">ANNIS</rs></hi> importiert.
                 </p>
             </div>
             <div type="div1" rend="DH-Heading1">
                 <head>corpus-tools.org: 
-                    <hi rend="italic">ANNIS</hi>, 
+                    <hi rend="italic"><rs key="ANNIS">ANNIS</rs></hi>, 
                     <hi rend="italic">Pepper</hi>, 
                     <hi rend="italic">Salt</hi>
                 </head>
                 <p>
-                    <hi rend="italic">ANNIS</hi> (Krause &amp; Zeldes 2016) ist eine Such- und Visualisierungsplattform für linguistische Daten, die mehrebenenfähig ist, d.h., verschiedene Annotationsebenen eines Korpus darstellen kann und dabei verschiedenste Annotationsarten berücksichtigt. Dies macht 
-                    <hi rend="italic">ANNIS</hi> zu einem hervorragenden Analysetool für die Daten des TraCES-Projekts. Eine besondere Rolle dabei spielt die Mächtigkeit der 
-                    <hi rend="italic">ANNIS</hi>-eigenen Abfragesprache AQL (ANNIS Query Language), die neben Freitextsuche und regulären Ausdrücken sich vor allem dadurch auszeichnet, linguistische Strukturen über mehrere Ebenen suchen zu können.
+                    <hi rend="italic"><rs key="ANNIS" ana="#Bib.Ref">ANNIS</rs></hi> (Krause &amp; Zeldes 2016) ist eine Such- und Visualisierungsplattform für linguistische Daten, die mehrebenenfähig ist, d.h., verschiedene Annotationsebenen eines Korpus darstellen kann und dabei verschiedenste Annotationsarten berücksichtigt. Dies macht 
+                    <hi rend="italic"><rs key="ANNIS">ANNIS</rs></hi> zu einem hervorragenden Analysetool für die Daten des TraCES-Projekts. Eine besondere Rolle dabei spielt die Mächtigkeit der 
+                    <hi rend="italic"><rs key="ANNIS">ANNIS</rs></hi>-eigenen Abfragesprache AQL (<rs key="ANNIS">ANNIS</rs> Query Language), die neben Freitextsuche und regulären Ausdrücken sich vor allem dadurch auszeichnet, linguistische Strukturen über mehrere Ebenen suchen zu können.
                 </p>
                 <p>Durch 
-                    <hi rend="italic">ANNIS</hi>‘ beschriebene Eigenschaften und seine Konfigurierbarkeit ist die Software für die Verwendung in den unterschiedlichsten Analyseszenarien geeignet und wird in der Tat bereits in verschiedenen Communities verwendet, z.B. in historischer Linguistik, Typologie, Sprachdokumentation u.v.m.
+                    <hi rend="italic"><rs key="ANNIS">ANNIS</rs></hi>‘ beschriebene Eigenschaften und seine Konfigurierbarkeit ist die Software für die Verwendung in den unterschiedlichsten Analyseszenarien geeignet und wird in der Tat bereits in verschiedenen Communities verwendet, z.B. in historischer Linguistik, Typologie, Sprachdokumentation u.v.m.
                 </p>
                 <p>Diese Eignung wird verstärkt durch eine hohe Kompatibilität mit vielen unterschiedlichen linguistischen Datenformaten, die erreicht wird durch Einsatz von 
                     <hi rend="italic">Pepper</hi> (Zipser et al. 2011), einem Konvertierungsframework für liguistische Daten. 
@@ -150,7 +150,7 @@
                     <hi rend="italic">Salt</hi>-Modell im Hauptspeicher übertragen, das dort manipuliert werden und anschließend in ein Zielformat überführt werden kann.
                 </p>
                 <p>
-                    <hi rend="italic">ANNIS</hi>, 
+                    <hi rend="italic"><rs key="ANNIS">ANNIS</rs></hi>, 
                     <hi rend="italic">Pepper</hi> und 
                     <hi rend="italic">Salt</hi> sind Komponenten der Softwarefamilie 
                     <hi rend="italic">corpus-tools.org</hi> (Druskat et al. 2016).
@@ -159,15 +159,15 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Schnittstelle zwischen 
                     <hi rend="italic">GeTa</hi> und 
-                    <hi rend="italic">ANNIS</hi>
+                    <hi rend="italic"><rs key="ANNIS">ANNIS</rs></hi>
                 </head>
                 <p>Diese Infrastruktur ermöglicht es ohne Weiteres, die in 
                     <hi rend="italic">GeTa</hi> annotierten Daten über ein dediziertes 
                     <hi rend="italic">GeTa</hi>-Importmodul für 
                     <hi rend="italic">Pepper</hi> und die Verwendung der bereits existierenden 
-                    <hi rend="italic">ANNIS</hi>-Module für 
+                    <hi rend="italic"><rs key="ANNIS">ANNIS</rs></hi>-Module für 
                     <hi rend="italic">Pepper</hi> – hier das Exportmodul – in 
-                    <hi rend="italic">ANNIS</hi> verarbeitbar zu machen. Mit 
+                    <hi rend="italic"><rs key="ANNIS">ANNIS</rs></hi> verarbeitbar zu machen. Mit 
                     <hi rend="italic">GeTaModules </hi>(Druskat 2018) haben wir einen solchen Importer entwickelt, dessen Funktionsweise hier kurz beschrieben werden soll. 
                     <hi rend="italic">GeTaModules</hi> ist in Java implementiert und wird als OSGi-Bundle ausgeliefert, das von 
                     <hi rend="italic">Pepper</hi>s OSGi-Plattform verwaltet werden kann. 
@@ -182,17 +182,17 @@
                 <p>In diesem Zustand hält 
                     <hi rend="italic">Pepper</hi> einen kompletten 
                     <hi rend="italic">Salt</hi>-Dokumentgraphen für das entsprechende Korpusdokument im Hauptspeicher. In einem weiteren Schritt werden Ordnungsrelationen jeweils zwischen den Knoten der Fidal und der transliterierten Wortebene erstellt, damit diese später in 
-                    <hi rend="italic">ANNIS</hi> als Segmentierungsgrundlage angezeigt werden können.
+                    <hi rend="italic"><rs key="ANNIS">ANNIS</rs></hi> als Segmentierungsgrundlage angezeigt werden können.
                 </p>
                 <p>Im dritten Schritt werden mit Hilfe des 
-                    <hi rend="italic">ANNIS</hi>-Exportmoduls
+                    <hi rend="italic"><rs key="ANNIS" ana="#URL">ANNIS</rs></hi>-Exportmoduls
                     <ref target="ftn3" n="3"/> die für den Import in 
-                    <hi rend="italic">ANNIS </hi>benötigten Dateien im nativen Format geschrieben. Diese können nun in 
-                    <hi rend="italic">ANNIS</hi> über dessen graphische Benutzeroberfläche importiert werden.
+                    <hi rend="italic"><rs key="ANNIS">ANNIS</rs> </hi>benötigten Dateien im nativen Format geschrieben. Diese können nun in 
+                    <hi rend="italic"><rs key="ANNIS">ANNIS</rs></hi> über dessen graphische Benutzeroberfläche importiert werden.
                 </p>
                 <p>Die Konfiguration der Visualisierungen erfolgt durch Anpassung einer während des Exportvorgangs generierten Konfigurationsdatei. Im Fall der 
                     <hi rend="italic">GeTa</hi>-Daten müssen hier lediglich die anzuzeigenden Annotationsebenen und ihre Reihenfolge eingestellt werden. In den 
-                    <hi rend="italic">ANNIS</hi>-Daten wird weiterhin ein dedizierter HTML-Visualisierer konfiguriert, der Wortartenannotationen auch graphisch Fidalwörtern zuordnet.
+                    <hi rend="italic"><rs key="ANNIS">ANNIS</rs></hi>-Daten wird weiterhin ein dedizierter HTML-Visualisierer konfiguriert, der Wortartenannotationen auch graphisch Fidalwörtern zuordnet.
                 </p>
                 <p>Mit 
                     <hi rend="italic">Pepper</hi> erfolgt die Konvertierung auf der Kommandozeile und die Konfiguration in Textdateien. Da dies für einige potenzielle Anwendergruppen unbekanntes Terrain bedeuten könnte haben wir den Prototypen einer Desktopanwendung für 
@@ -202,16 +202,16 @@
                     <hi rend="italic">Pepper Grinder</hi> (Druskat 2017). 
                     <hi rend="italic">Pepper Grinder (TraCES Edition)</hi> bietet so den Workflow für die Konvertierung der 
                     <hi rend="italic">GeTa</hi>-Daten nach 
-                    <hi rend="italic">ANNIS</hi> quasi per Knopfdruck an. 
+                    <hi rend="italic"><rs key="ANNIS">ANNIS</rs></hi> quasi per Knopfdruck an. 
                     <hi rend="italic">Pepper Grinder</hi> wird in Zukunft in eine vollfunktionale Anwendung ausgebaut, die Modi für verschiedene Anwendergruppen anbieten wird.
                 </p>
                 <p>Neben der projektinternen Nutzung von 
                     <hi rend="italic">GeTaModules</hi> für die Konvertierung in das 
-                    <hi rend="italic">ANNIS</hi>-Format eröffnet die Software weitere Nachnutzungsszenarien für die annotierten Daten. Durch die Existenz von Manipulator- und Export-Modulen für 
+                    <hi rend="italic"><rs key="ANNIS">ANNIS</rs></hi>-Format eröffnet die Software weitere Nachnutzungsszenarien für die annotierten Daten. Durch die Existenz von Manipulator- und Export-Modulen für 
                     <hi rend="italic">Pepper</hi> für die verschiedensten Datenformate können die Daten mit anderen Werkzeugen nachgenutzt und etwa um zusätzliche Annotationsebenen angereichert, oder mit anderen Visualisierungen zu weiteren Forschungsfragen analysiert werden. 
                     <anchor xml:id="id_docs-internal-guid-26467f60-f68c-05ba-b91d-3a0ed4bb4e49"/>Gleichzeitig leistet die Nachnutzung und Anpassung von 
                     <hi rend="italic">Pepper</hi> durch 
-                    <hi rend="italic">GeTaModules</hi> einen Beitrag zur Vernachhaltigung dieses Frameworks. Durch die Ermöglichung des Imports von GeTa-Daten in ANNIS wird aus dem GeTa-Modell eine durchaus attraktive Modellierungsalternative für andere Sprachen mit ähnlichen Merkmalen. Derzeit wird das Modell in laufenden Projekten zu Mayasprachen und Jiddisch erprobt.
+                    <hi rend="italic">GeTaModules</hi> einen Beitrag zur Vernachhaltigung dieses Frameworks. Durch die Ermöglichung des Imports von GeTa-Daten in <rs key="ANNIS">ANNIS</rs> wird aus dem GeTa-Modell eine durchaus attraktive Modellierungsalternative für andere Sprachen mit ähnlichen Merkmalen. Derzeit wird das Modell in laufenden Projekten zu Mayasprachen und Jiddisch erprobt.
                 </p>
                 <p>Zusammenfassend stellt unser Ansatz eine Alternative dar zu Tendenzen der „Format-Hoheit“, also der Modellierung auf Grundlage eines – eventuell de facto standardisierten – Datenformats im Gegensatz zur Modellierung auf Grundlage der Forschungsfrage und der vorliegenden Daten. Die Einrichtung von Schnittstellen, wie z.B. 
                     <hi rend="italic">GeTaModules</hi>, die eine Nachnutzbarkeit der Daten auch über die ursprüngliche Erstellung hinaus gewährleisten können, ermöglicht eine optimierte Modellierung und die Entwicklung spezifischer, den Bedürfnissen der Forschung und ihrer Daten hochgradig angepasster Werkzeuge, wie etwa 
