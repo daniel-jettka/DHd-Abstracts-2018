@@ -169,7 +169,7 @@
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl><hi rend="bold">Boschung, Urs et al. </hi>(eds.): Repertorium zu Albrecht von Hallers Korrespondenz 1724-1777 (Studia Halleriana VII), Basel: Schwabe 2006.</bibl>
-                    <bibl><hi rend="bold">Dumont, Stefan</hi> et al.: correspSearch, URL: http://correspsearch.net (14.1.2018).</bibl>
+                    <bibl><rs key="CorrespSearch" ana="#Bib.Soft #URL #Agent"><hi rend="bold">Dumont, Stefan</hi> et al.: correspSearch, URL: http://correspsearch.net (14.1.2018).</rs></bibl>
                     <bibl><hi rend="bold">Flückiger, Daniel / Stuber, Martin</hi>: Vom System zum Akteur. Personenorientierte Datenbanken für Archiv und Forschung, in: Kirchhofer, André et al. (eds.), Nachhaltige Geschichte. Festschrift für Christian Pfister, Zürich: Chronos 2009, S. 253-269.</bibl>
                     <bibl><hi rend="bold">Sonntag, Otto </hi>(ed.): The Albrecht von Haller-Gerlach Adolph von Münchhausen Correspondence, Digitale Edition, Bern 2018 (in Vorbereitung).</bibl>
                     <bibl><hi rend="bold">Steinke, Hubert</hi>: Archive databases as advanced research tools: the Haller Project, in: Monti, Maria Teresa (ed.), Antonio Vallisneri. L'edizione del testo scientifico d'età moderna, Firenze: Olschki 2003, S. 191–204.</bibl>

@@ -152,10 +152,10 @@
                         <hi rend="bold">Ekbal, Asif / Saha, Sriparna / Choudhary, Gaurav</hi> (2012): “Plagiarism detection in text using vector space model.”, in: 
                         <hi rend="italic">Hybrid Intelligent Systems</hi> (HIS), 2012 12th International Conference on, pages 366-371. IEEE.
                     </bibl>
-                    <bibl>
+                    <bibl><rs key="WITTfind" ana="#Bib.Ref #Agent">
                         <hi rend="bold">Hadersbeck, Maximilian / Pichler, Alois / Fink, Florian / Gjesdal, Øyvind, L.</hi> (2014): 
                         <hi rend="italic">Wittgenstein‘s Nachlass: WiTTFind and Wittgenstein Advanced Search Tools (WAST).</hi> DATeH. Madrid.
-                    </bibl>
+                    </rs></bibl>
                     <bibl>
                         <hi rend="bold">C.K. Kent / N. Salim </hi>(2010): „Features based text similarity detection.“, in: 
                         <hi rend="italic">Journal of Computing</hi>, 2 (1).
