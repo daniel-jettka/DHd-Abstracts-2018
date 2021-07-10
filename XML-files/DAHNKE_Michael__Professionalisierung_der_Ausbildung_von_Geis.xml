@@ -128,7 +128,7 @@
                     <head>2.4. OCR</head>
                     <p>Entsprechend der zunehmenden Spezialisierung des Digitalisierungszentrums der UB Würzburg ist es erstens wünschenswert, in der Lehrveranstaltung besonders auf das Training eigener Modelle beispielsweise mit 
                     <ref target="https://github.com/tmbdev/ocropy">
-                        <hi rend="italic">OCRopus</hi>
+                        <hi rend="italic"><rs key="OCRopus" ana="#URL">OCRopus</rs></hi>
                     </ref> einzugehen. Zweitens soll ein Arbeitsablauf für die Digitalisierung eigener Texte vorgestellt werden, der von den Vertretern der Zielgruppe selbständig mit möglichst geringem technischen Aufwand realisierbar ist. Diese Form der Digitalisierung von Texten soll als handhabbares Mittel zum Zweck wahrgenommen werden.
                     </p>
                     <p>Schließlich wird in diesem Zusammenhang auf die Frage nach dem Zeitpunkt der Normalisierung des mit dem OCR erstellten Textes eingegangen. Soll bereits mit dem OCR ein normalisierter Text erstellt werden und wenn ja, nach welchen Regeln? Ist also beispielsweise von der verwendeten OCR-Software das Schaft-s bereits automatisch als Rund-s zu lernen und anschließend zu transkribieren? Oder soll das Ergebnis des OCR graphisch so dicht wie möglich am Original bleiben und normalisierende Eingriffe erst hinterher erfolgen?</p>
