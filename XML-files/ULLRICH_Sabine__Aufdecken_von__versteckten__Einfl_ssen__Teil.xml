@@ -129,7 +129,7 @@
                 <p>Wird eine Suchanfrage zum Auffinden ähnlicher Abschnitte gestartet, lässt sich der charakteristische Vektor des eingegebenen Abschnitts berechnen und daraufhin die Vektoren mit dem geringsten Abstand im multi-dimensionalen Raum bestimmen. Diese Vektoren verweisen auf die ähnlichsten Textabschnitte, die dann dem Philologen zur genaueren Prüfung in einer Hitliste vorgeschlagen werden.</p>
                 <p>Die bereits erfolgreiche Ähnlichkeits
                     <hi rend="italic">bestimmung</hi> in Ullrich (2017) soll zu einem Ähnlichkeits
-                    <hi rend="italic">rankingtool</hi>weiterentwickelt werden, um sie vor allem für textgenetische Prozesse in digitalen Editionen nutzbar zu machen. Sobald diese Weiterentwicklung abgeschlossen ist, soll sie die Wittgenstein Advanced Search Tools (Hadersbeck et al. 2014) in der Suchmaschine WiTTFind (siehe: http://wittfind.cis.lmu.de) erweitern, welche am Centrum für Informations- und Sprachverarbeitung der Universität München entwickelt wurde.
+                    <hi rend="italic">rankingtool</hi>weiterentwickelt werden, um sie vor allem für textgenetische Prozesse in digitalen Editionen nutzbar zu machen. Sobald diese Weiterentwicklung abgeschlossen ist, soll sie die Wittgenstein Advanced Search Tools (Hadersbeck et al. 2014) in der Suchmaschine <rs key="WITTfind" ana="#URL #Bib.Ref">WiTTFind</rs> (siehe: http://wittfind.cis.lmu.de) erweitern, welche am Centrum für Informations- und Sprachverarbeitung der Universität München entwickelt wurde.
                 </p>
             </div>
         </body>
