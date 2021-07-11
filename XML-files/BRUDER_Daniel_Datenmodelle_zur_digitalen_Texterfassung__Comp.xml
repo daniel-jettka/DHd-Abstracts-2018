@@ -235,11 +235,11 @@
                     <bibl><hi rend="bold">Durusau, Patrick, and M Brook O'Donnell. </hi>2002. “Concurrent Markup for XML Documents.” In 
                         <hi rend="italic">Proc. XML Europe</hi>.
                     </bibl>
-                    <bibl><hi rend="bold">Götze, Michael, and Stefanie Dipper. </hi>2006. “ANNIS: Complex Multilevel Annotations in a Linguistic Database.” In 
+                    <bibl><rs key="ANNIS" ana="#Bib.Ref #URL #Agent"><hi rend="bold">Götze, Michael, and Stefanie Dipper. </hi>2006. “ANNIS: Complex Multilevel Annotations in a Linguistic Database.” In 
                         <hi rend="italic">Proceedings of the 5</hi>
                         <hi rend="sup italic">th</hi>
                         <hi rend="italic"> Workshop on NLP and XML: Multi-Dimensional Markup in Natural Language Processing</hi>, 61–64. Association for Computational Linguistics.
-                    </bibl>
+                    </rs></bibl>
                     <bibl><hi rend="bold">Hanrahan, Elise. </hi>2015. “Over-Tagging with XML in Digital Scholarly Editions.” In 
                         <hi rend="italic">DHd2015 Conference – von Daten Zu Erkenntnissen. Book of Abstracts.</hi>, edited by Various, 162–65. Graz, Austria.
                     </bibl>

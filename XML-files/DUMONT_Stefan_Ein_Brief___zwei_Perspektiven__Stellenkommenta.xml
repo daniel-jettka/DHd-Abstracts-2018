@@ -105,9 +105,9 @@
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>
+                    <bibl><rs key="CorrespSearch" ana="#Bib.Ref #Agent">
                         <hi rend="bold">Dumont, Stefan.</hi> 2018. „CorrespSearch – Connecting Scholarly Editions of Letters“. Journal of the Text Encoding Initiative 10. [Im Erscheinen].
-                    </bibl>
+                    </rs></bibl>
                     <bibl>
                         <hi rend="bold">Lordick, Harald, Rainer Becker, Michael Bender, Luise Borek, Canan Hastik, Thomas Kollatz, Beata Mache, Andrea Rapp, Ruth Reiche, und Niels-Oliver Walkowski.</hi> 2016. „Digitale Annotationen in der geisteswissenschaftlichen Praxis“. Bibliothek Forschung und Praxis 40 (2): 186–199. doi:10.1515/bfp-2016-0042.
                     </bibl>

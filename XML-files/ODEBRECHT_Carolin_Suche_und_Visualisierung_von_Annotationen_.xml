@@ -225,10 +225,10 @@
                         <hi rend="bold">Krasselt, Julia / Bollmann, Marcel / Dipper, Stefanie / Petran, Florian</hi> (2015): 
                         <hi rend="italic">Guidelines für die Normalisierung historischer deutscher Texte</hi>. Bochumer Linguistische Arbeitsberichte, 15. urn:nbn:de:hebis:30:3-419680.
                     </bibl>
-                    <bibl>
+                    <bibl><rs key="ANNIS" ana="#Bib.Ref #PID #Agent #Ver">
                         <hi rend="bold">Krause, Thomas / Zeldes, Amir</hi> (2016): ANNIS3. “A new architecture for generic corpus query and visualization”, in: 
                         <hi rend="italic">Digital Scholarship in the Humanities </hi>31 (1), 118–139. 10.1093/llc/fqu057.
-                    </bibl>
+                    </rs></bibl>
                     <bibl>
                         <hi rend="bold">Kupietz, Marc / Geyken, Alexander </hi>(eds.) (2016): “Corpus Linguistic Software Tools”, in: 
                         <hi rend="italic">Journal for Language Technology and Computational Linguistics</hi> 31(1).
