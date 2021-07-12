@@ -266,10 +266,10 @@
                         <hi rend="bold">Rissanen, Matti </hi>(2008): "Corpus Linguistics and Historical Linguistics", in: Lüdeling, Anke / Kytö, Merja (eds.): 
                         <hi rend="italic">Corpus Linguistics. An International Handbook</hi>. 2 Bände. Berlin: De Gruyter (1), 53–68.
                     </bibl>
-                    <bibl>
+                    <bibl><rs key="EXMARaLDA" ana="#Bib.Ref #Agent">
                         <hi rend="bold">Schmidt, Thomas / Wörner, Kai</hi> (2009): "EXMARaLDA. Creating, analysing and sharing spoken language corpora for pragmatic research", in: 
                         <hi rend="italic">Pragmatics </hi>19 (4), 565–582.
-                    </bibl>
+                    </rs></bibl>
                     <bibl>
                         <hi rend="bold">Simanowski, Roberto</hi> (2011): 
                         <hi rend="italic">Digital Art and Meaning. Reading Kinetic Poetry, Text Machines, Mapping Art, and Interactive Installations</hi> (Electronic Mediations). Minnesota: University of Minnesota Press.
