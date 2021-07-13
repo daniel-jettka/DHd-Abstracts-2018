@@ -508,7 +508,7 @@
                         </ref>
                     </bibl>
                     <bibl>Pliny http://pliny.cch.kcl.ac.uk/</bibl>
-                    <bibl><rs key="TEASys" ana="#Bib.Soft #URL">TEASys http://www.annotation.es.uni-tuebingen.de/?page_id=200</rs>/bibl>
+                    <bibl><rs key="TEASys" ana="#Bib.Soft #URL">TEASys http://www.annotation.es.uni-tuebingen.de/?page_id=200</rs></bibl>
                     <bibl>VEGA – A Visualization Grammar: <ref target="https://vega.github.io/vega/">
                             <hi rend="underline">https://vega.github.io/vega/</hi>
                         </ref>
