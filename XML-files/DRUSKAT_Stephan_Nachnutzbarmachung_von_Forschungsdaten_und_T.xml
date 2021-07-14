@@ -93,14 +93,14 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Einleitung</head>
                 <p>In den letzten Jahren wurden verschiedene Werkzeuge zur Annotation von Dokumenten
-                    entwickelt, z.B. <hi rend="italic">WebAnno</hi> (Eckart de Castilho et al.
-                    2016), <hi rend="italic">CorA</hi> (Bollmann et al. 2014) und <rs key="CATMA"
-                        ana="#Bib.Soft #Agent"><hi rend="italic">CATMA</hi> (Meister et al.
-                        2016)</rs>. Diese Werkzeuge bieten zahlreiche Funktionalitäten, die für
-                    viele Sprachen und Anwendungen ausreichend sind. Die Unterstützung verschiedener
-                    Skripten erweckt den Eindruck, dass diese Werkzeuge für die Annotation aller
-                    Sprachkorpora erfolgreich eingesetzt werden können, was solange korrekt ist, wie
-                    man sehr flache Annotation durchführt. </p>
+                    entwickelt, z.B. <rs key="WebAnno" ana="#Bib.Ref"><hi rend="italic">WebAnno</hi>
+                        (Eckart de Castilho et al. 2016)</rs>, <hi rend="italic">CorA</hi> (Bollmann
+                    et al. 2014) und <rs key="CATMA" ana="#Bib.Soft #Agent"><hi rend="italic"
+                            >CATMA</hi> (Meister et al. 2016)</rs>. Diese Werkzeuge bieten
+                    zahlreiche Funktionalitäten, die für viele Sprachen und Anwendungen ausreichend
+                    sind. Die Unterstützung verschiedener Skripten erweckt den Eindruck, dass diese
+                    Werkzeuge für die Annotation aller Sprachkorpora erfolgreich eingesetzt werden
+                    können, was solange korrekt ist, wie man sehr flache Annotation durchführt. </p>
                 <p>Tiefere Annotationen, insbesondere für Sprachen außerhalb der Europäischen
                     Sprachfamilie oder für historische Sprachen, dagegen gestalten sich
                     problematischer. Häufig jedoch wird die Verwendung bereits etablierter
@@ -161,13 +161,14 @@
                     mit Listen von Wertkombinationen von Attributen. Die benötigte morphologische
                     Annotation im Fall der altäthiopischen Sprache umfasst 30 Merkmale, mit je
                     mindestens drei möglichen Werten. Die Handhabung solch einer umfangreichen Liste
-                    macht manuelle Annotation praktisch unmöglich. Weder WebAnno noch <rs
-                        key="CATMA">CATMA</rs> ermöglichen die Korrektur des zugrunde liegenden
-                    Textes während der Annotation. Die Implementierung einer solchen Funktion auf
-                    Basis eines dieser Werkzeuge würde tief in die Architektur der Software
-                    eingreifen, was innerhalb der Laufzeit des Projektes nicht realisierbar war.
-                    Auch die semi-automatischen Annotationsmöglichkeiten unter Supervision des
-                    Benutzenden sind für diese beiden Werkzeuge nicht leicht erweiterbar. </p>
+                    macht manuelle Annotation praktisch unmöglich. Weder <rs key="WebAnno"
+                        >WebAnno</rs> noch <rs key="CATMA">CATMA</rs> ermöglichen die Korrektur des
+                    zugrunde liegenden Textes während der Annotation. Die Implementierung einer
+                    solchen Funktion auf Basis eines dieser Werkzeuge würde tief in die Architektur
+                    der Software eingreifen, was innerhalb der Laufzeit des Projektes nicht
+                    realisierbar war. Auch die semi-automatischen Annotationsmöglichkeiten unter
+                    Supervision des Benutzenden sind für diese beiden Werkzeuge nicht leicht
+                    erweiterbar. </p>
             </div>
             <div type="div1" rend="DH-Heading1">
                 <head>Das GeTa Annotationstool</head>
@@ -367,12 +368,13 @@
                             >Proceedings of the Tenth International Conference on Language Resources
                             and Evaluation (LREC 2016):</hi> 23–28. </bibl>
                     <bibl>
-                        <hi rend="bold">Eckart de Castilho, Richard / Mújdricza-Maydt, Éva / Yiman,
-                            Seid Muhie / Hartmann, Silvana / Gurevych, Iryna / Frank, Anette /
-                            Biemann, Chris</hi> (2016): „A Web-based Tool for the Integrated
-                        Annotation of Semantic and Syntactic Structures“, in: <hi rend="italic"
-                            >Proceedings of the LT4DH workshop at COLING 2016, Osaka, Japan:
-                        </hi>76-84. </bibl>
+                        <rs key="WebAnno" ana="#Bib.Ref"><hi rend="bold">Eckart de Castilho, Richard
+                                / Mújdricza-Maydt, Éva / Yiman, Seid Muhie / Hartmann, Silvana /
+                                Gurevych, Iryna / Frank, Anette / Biemann, Chris</hi> (2016): „A
+                            Web-based Tool for the Integrated Annotation of Semantic and Syntactic
+                            Structures“, in: <hi rend="italic">Proceedings of the LT4DH workshop at
+                                COLING 2016, Osaka, Japan: </hi>76-84.</rs>
+                    </bibl>
                     <bibl>
                         <hi rend="bold">Krause, Thomas / Zeldes, Amir </hi>(2016): "ANNIS3: A new
                         architecture for generic corpus query and visualization", in: <hi

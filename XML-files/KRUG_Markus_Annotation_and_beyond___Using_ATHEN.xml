@@ -174,27 +174,28 @@
                 <p>All of the listed tools have an accessible documentation, either web-based or as
                     a PDF, available for download. Besides UAM (O'Donnell 2008), every other
                     application is listed as open source, so at least extensions based on code level
-                    can be made. WebAnno (Yimam et al. 2013) is the only application having a
-                    tutorial supporting a new developer to make changes in their project. ATHEN
-                    stands out in the sense that extensions to its UI can be made at runtime,
-                    therefore easing the process of adding functionality to it. WebAnno supports the
-                    largest number of formats and comes with a machine learning based automatic
-                    annotation, however lacks integrated NLP-preprocessing. <rs key="CATMA"
-                        ana="#Bib.Soft #Agent">CATMA (Meister 2017)</rs> is the only project that
-                    has a very good visualization component and also supports TEI-XML (Wittern et al
-                    2009), the unspoken standard of text processing. Being a standalone web
-                    application, <rs key="CATMA">CATMA</rs> itself does not support
-                    NLP-preprocessing. ATHEN comes with the support of the execution of UIMA
-                    analysis engines, accessible from web repositories or a local repository, giving
-                    the user a chance to integrate her custom-made annotators. Four tools, ATHEN,
-                    UAM, MMAX2 (Müller / Strube 2006) and <rs key="CATMA">CATMA</rs> feature an
-                    integrated query language which helps to analyze existing corpora. Most tools
-                    allow the annotation of user-defined annotation schemas earning therefore the
-                    title “generic annotation tool”. Alongside UAM, ATHEN supports the annotation
-                    based on queries, while UAM defines its own language, ATHEN supports the
-                    annotation using Apache UIMA Ruta (Kluegl et al. 2016) rules. Three of the
-                    listed tools, MMAX2, Knowtator (Ogren 2006) and WordFreak (Morton / LaCivita
-                    2003) are currently no longer in active development. </p>
+                    can be made. <rs key="WebAnno">WebAnno (Yimam et al. 2013)</rs> is the only
+                    application having a tutorial supporting a new developer to make changes in
+                    their project. ATHEN stands out in the sense that extensions to its UI can be
+                    made at runtime, therefore easing the process of adding functionality to it. <rs
+                        key="WebAnno">WebAnno</rs> supports the largest number of formats and comes
+                    with a machine learning based automatic annotation, however lacks integrated
+                    NLP-preprocessing. <rs key="CATMA" ana="#Bib.Soft #Agent">CATMA (Meister
+                        2017)</rs> is the only project that has a very good visualization component
+                    and also supports TEI-XML (Wittern et al 2009), the unspoken standard of text
+                    processing. Being a standalone web application, <rs key="CATMA">CATMA</rs>
+                    itself does not support NLP-preprocessing. ATHEN comes with the support of the
+                    execution of UIMA analysis engines, accessible from web repositories or a local
+                    repository, giving the user a chance to integrate her custom-made annotators.
+                    Four tools, ATHEN, UAM, MMAX2 (Müller / Strube 2006) and <rs key="CATMA"
+                        >CATMA</rs> feature an integrated query language which helps to analyze
+                    existing corpora. Most tools allow the annotation of user-defined annotation
+                    schemas earning therefore the title “generic annotation tool”. Alongside UAM,
+                    ATHEN supports the annotation based on queries, while UAM defines its own
+                    language, ATHEN supports the annotation using Apache UIMA Ruta (Kluegl et al.
+                    2016) rules. Three of the listed tools, MMAX2, Knowtator (Ogren 2006) and
+                    WordFreak (Morton / LaCivita 2003) are currently no longer in active
+                    development. </p>
             </div>
             <div type="div1" rend="DH-Heading1">
                 <head>Brief technological description of ATHEN</head>
@@ -349,11 +350,11 @@
                         (2009): “The making of TEI P5“, in: <hi rend="italic">Literary and
                             Linguistic Computing 24.3</hi> 281-296. </bibl>
                     <bibl>
-                        <hi rend="bold">Yimam, Seid Muhie / Gurevych, Iryna / de Castilho, Richard
-                            Eckart / Biemann, Chris</hi> (2013): “WebAnno: A Flexible, Web-based and
-                        Visually Supported System for Distributed Annotations“, in: <hi
-                            rend="italic">Proceedings of ACL-2013, demo session, Sofia,
-                            Bulgaria</hi> 1-6 <hi rend="italic">.</hi>
+                        <rs key="WebAnno" ana="#URL"><hi rend="bold">Yimam, Seid Muhie / Gurevych,
+                                Iryna / de Castilho, Richard Eckart / Biemann, Chris</hi> (2013):
+                            “WebAnno: A Flexible, Web-based and Visually Supported System for
+                            Distributed Annotations“, in: <hi rend="italic">Proceedings of ACL-2013,
+                                demo session, Sofia, Bulgaria</hi> 1-6 <hi rend="italic">.</hi></rs>
                     </bibl>
                 </listBibl>
             </div>
