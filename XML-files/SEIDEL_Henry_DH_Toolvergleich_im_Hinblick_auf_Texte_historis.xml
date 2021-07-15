@@ -104,7 +104,8 @@
                 digitalen Korpus. <ref target="ftn2" n="2"/> In beiden Fällen weisen die Quellen
                 frühneuhochdeutschen Sprachstand auf. Anhand ausgewählter Beispiele aus den
                 vorliegenden Texten sollen zwei gängige elektronische Werkzeuge miteinander
-                verglichen werden – <rs key="EXMARaLDA">EXMARaLDA</rs> und <rs key="LAKomp">LAKomp</rs>. </p>
+                verglichen werden – <rs key="EXMARaLDA">EXMARaLDA</rs> und <rs key="LAKomp"
+                    >LAKomp</rs>. </p>
             <p><rs key="EXMARaLDA" ana="#URL">EXMARaLDA</rs> wurde für das computergestützte
                 Arbeiten mit überwiegend mündlichen Korpora entwickelt, wird aber regelmäßig auch
                 für schriftliche Sprachdaten verwendet, so auch bei den <hi rend="italic"
@@ -113,26 +114,27 @@
                 einem Werkzeug zum Verwalten von Korpora und einem Such- und Analysetool. <ref
                     target="ftn3" n="3"/>
             </p>
-            <p>Das Werkzeug <rs key="LAKomp">LAKomp</rs> <ref target="ftn4" n="4"/> wurde im Projekt SaDA
-                (Semiautomatische Differenzanalyse von komplexen Textvarianten) <ref target="ftn5"
-                    n="5"/> entwickelt und dient der Aufbereitung eines historischen Korpus. Nach
-                der Transkription können die Texte hier lemmatisiert und annotiert werden. Aufgrund
-                der Besonderheiten bei frühneuhochdeutschen Handschriften und Drucken wird der
-                Lemmatisierungs- und Annotationsvorgang komplett manuell durchgeführt. Dabei ist dem
-                Benutzer mit <rs key="LAKomp">LAKomp</rs> ein Werkzeug an die Hand gegeben, das ihn sehr schnell und
-                präzise große Textmengen bearbeiten lässt und damit den Mehraufwand händischer
+            <p>Das Werkzeug <rs key="LAKomp">LAKomp</rs>
+                <ref target="ftn4" n="4"/> wurde im Projekt SaDA (Semiautomatische Differenzanalyse
+                von komplexen Textvarianten) <ref target="ftn5" n="5"/> entwickelt und dient der
+                Aufbereitung eines historischen Korpus. Nach der Transkription können die Texte hier
+                lemmatisiert und annotiert werden. Aufgrund der Besonderheiten bei
+                frühneuhochdeutschen Handschriften und Drucken wird der Lemmatisierungs- und
+                Annotationsvorgang komplett manuell durchgeführt. Dabei ist dem Benutzer mit <rs
+                    key="LAKomp">LAKomp</rs> ein Werkzeug an die Hand gegeben, das ihn sehr schnell
+                und präzise große Textmengen bearbeiten lässt und damit den Mehraufwand händischer
                 Annotation nahezu ausgleicht. </p>
             <p>Damit wurden zwei Werkzeuge ausgewählt, bei denen manuell annotiert werden muss, die
                 aber dennoch bestimmte Unterschiede aufweisen, die für Nutzerinnen und Nutzer, die
                 mit nicht-standardisierten Sprachdaten arbeiten, je nach Arbeitsziel vor- oder
-                nachteilig sein können. So sind etwa bei <rs key="LAKomp">LAKomp</rs> die halbautomatische Annotation auf
-                der Grundlage des DWB und die Ausgabefunktion besonders gelungen, leider kann hier
-                aber bisher nur lemmabasiert annotiert werden; bei <rs key="EXMARaLDA"
-                    >EXMARaLDA</rs> ermöglichen die flexiblen Annotationskriterien eine besondere
-                Breite von möglichen Annotationen, eine automatische oder halbautomatische
-                Annotation des frühneuhochdeutschen Textmaterials ist jedoch bislang auch mit
-                Hilfsmitteln wie dem Treetagger <ref target="ftn6" n="6"/> nicht ohne weiteres
-                möglich. </p>
+                nachteilig sein können. So sind etwa bei <rs key="LAKomp">LAKomp</rs> die
+                halbautomatische Annotation auf der Grundlage des DWB und die Ausgabefunktion
+                besonders gelungen, leider kann hier aber bisher nur lemmabasiert annotiert werden;
+                bei <rs key="EXMARaLDA">EXMARaLDA</rs> ermöglichen die flexiblen
+                Annotationskriterien eine besondere Breite von möglichen Annotationen, eine
+                automatische oder halbautomatische Annotation des frühneuhochdeutschen Textmaterials
+                ist jedoch bislang auch mit Hilfsmitteln wie dem Treetagger <ref target="ftn6" n="6"
+                /> nicht ohne weiteres möglich. </p>
             <p>Die beiden genannten Tools werden auf dem Poster hinsichtlich ihrer Anwendbarkeit auf
                 Texte historischer Sprachstufen anhand folgender Kriterien verglichen:
                 Funktionalitäten, Nutzerfreundlichkeit (Technischer Support, Qualität des Handbuchs,
@@ -145,8 +147,8 @@
         <back>
             <div type="notes">
                 <note xml:id="ftn1" n="1" rend="footnote text"> In Auswahl: <rs key="CATMA"
-                        >CATMA</rs>, CorA, <rs key="EXMARaLDA">EXMARaLDA</rs>, GATE, <rs key="LAKomp">LAKomp</rs>, <rs
-                        key="WebAnno">WebAnno</rs>.</note>
+                        >CATMA</rs>, <rs key="CorA">CorA</rs>, <rs key="EXMARaLDA">EXMARaLDA</rs>,
+                    GATE, <rs key="LAKomp">LAKomp</rs>, <rs key="WebAnno">WebAnno</rs>.</note>
                 <note xml:id="ftn2" n="2" rend="footnote text">
                     <ref
                         target="https://archive.thulb.uni-jena.de/hisbest/content/below/index.xml?XSL.DisplayComponentBrowse=true"
@@ -172,9 +174,10 @@
             <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl><rs key="LAKomp" ana="#Bib.Ref #Agent"><hi rend="bold">B. Aehnlich / S. Kösser </hi>(2016): „Das Tool LAKomp und
-                        seine Anwendung auf Texte nichtstandardisierter Sprachstufen“. In: DHd 2016.
-                        Konferenzabstracts, Leipzig, S. 263–264.</rs></bibl>
+                    <bibl><rs key="LAKomp" ana="#Bib.Ref #Agent"><hi rend="bold">B. Aehnlich / S.
+                                Kösser </hi>(2016): „Das Tool LAKomp und seine Anwendung auf Texte
+                            nichtstandardisierter Sprachstufen“. In: DHd 2016. Konferenzabstracts,
+                            Leipzig, S. 263–264.</rs></bibl>
                     <bibl><hi rend="bold">V. Faßhauer </hi>(2017): „Compilation, Transcription,
                         Multi-Level Annotation and Gender-oriented Analysis of a Historical Text
                         Corpus:Early Modern Ducal Correspondences in Central Germany“. In: Advances
