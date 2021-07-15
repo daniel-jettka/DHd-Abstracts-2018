@@ -357,7 +357,7 @@
                             Petran, Florian</hi> (2015): <hi rend="italic">Guidelines für die
                             Normalisierung historischer deutscher Texte</hi>. Bochumer Linguistische
                         Arbeitsberichte, 15. urn:nbn:de:hebis:30:3-419680. </bibl>
-                    <bibl><rs key="ANNIS" ana="#Bib.Ref #PID #Agent #Ver">
+                    <bibl><rs key="ANNIS" ana="#Bib.Ref">
                             <hi rend="bold">Krause, Thomas / Zeldes, Amir</hi> (2016): ANNIS3. “A
                             new architecture for generic corpus query and visualization”, in: <hi
                                 rend="italic">Digital Scholarship in the Humanities </hi>31 (1),
@@ -409,7 +409,7 @@
                         Historical Linguistics", in: Lüdeling, Anke / Kytö, Merja (eds.): <hi
                             rend="italic">Corpus Linguistics. An International Handbook</hi>. 2
                         Bände. Berlin: De Gruyter (1), 53–68. </bibl>
-                    <bibl><rs key="EXMARaLDA" ana="#Bib.Ref #Agent">
+                    <bibl><rs key="EXMARaLDA" ana="#Bib.Ref">
                             <hi rend="bold">Schmidt, Thomas / Wörner, Kai</hi> (2009): "EXMARaLDA.
                             Creating, analysing and sharing spoken language corpora for pragmatic
                             research", in: <hi rend="italic">Pragmatics </hi>19 (4), 565–582.

@@ -100,7 +100,7 @@
     </teiHeader>
    <text>
         <body>
-            <p>Das Poster präsentiert <rs key="TEASys" ana="#Bib.Ref #Agent">TEASys (Tübingen Explanatory Annotations System; Bauer/Zirker 2015)</rs> und die Möglichkeiten, die es als heuristisches 
+            <p>Das Poster präsentiert <rs key="TEASys" ana="#Bib.Ref">TEASys (Tübingen Explanatory Annotations System; Bauer/Zirker 2015)</rs> und die Möglichkeiten, die es als heuristisches 
                 <hi rend="italic">tool</hi> in Lehr- und Lernprozessen bietet. Im Projekt annotieren Studierende kollaborativ Texte der englischsprachigen Literatur. Nachdem <rs key="TEASys">TEASys</rs> und seine Struktur wie auch Funktionen bereits bei der DHd 2016 und 2017 vorgestellt wurden, liegt der Schwerpunkt nun auf dem 
                 <hi rend="italic">Prozess</hi> der kollaborativen Annotation im digitalen Medium. 
             </p>
@@ -130,7 +130,7 @@
                         <hi rend="italic">Literary Studies in the Digital Age: An Evolving Anthology</hi>. 
                         <ref target="https://dlsanthology.mla.hcommons.org/whipping-boys-explained-literary-annotation-and-digital-humanities/">https://dlsanthology.mla.hcommons.org/whipping-boys-explained-literary-annotation-and-digital-humanities/</ref> [letzter Zugriff 23. September 2017].
                     </bibl>
-                    <bibl><rs key="TEASys" ana="#Bib.Ref #Agent">
+                    <bibl><rs key="TEASys" ana="#Bib.Ref">
                         <hi rend="bold">Bauer, Matthias / Zirker, Angelika</hi> (2017a): “TEASys (Tübingen Explanatory Annotations System): Die erklärende Annotation literarischer Texte in den Digital Humanities.” in: 
                         <hi rend="italic">DHd2017: Digitale Nachhaltigkeit. Konferenzabstracts </hi>274-276.
                     </rs></bibl>
