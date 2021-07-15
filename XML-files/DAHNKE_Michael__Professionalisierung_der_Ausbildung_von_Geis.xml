@@ -174,7 +174,7 @@
                     <bibl><hi rend="bold">Loewenheim, Ulrich / Adolf Dietz / Gerhard Schricker</hi>: 
                         <hi rend="italic">Urheberrecht</hi>. Kommentar. München: Beck. (4)2010.
                     </bibl>
-                    <bibl><rs key="OCRopus" ana="#Bib.Ref #Agent"><hi rend="bold">Reul, Christian / Christoph Wick / Uwe Springmann / Frank Puppe</hi>: 
+                    <bibl><rs key="OCRopus" ana="#Bib.Ref"><hi rend="bold">Reul, Christian / Christoph Wick / Uwe Springmann / Frank Puppe</hi>: 
                         <hi rend="italic">Transfer Learning for OCRopus Model Training on Early Printed Books</hi>. In: 
                         <hi rend="italic">Zeitschrift für Bibliothekskultur</hi>. Bd. 5, Nr. 1 (2017).
                     </rs></bibl>

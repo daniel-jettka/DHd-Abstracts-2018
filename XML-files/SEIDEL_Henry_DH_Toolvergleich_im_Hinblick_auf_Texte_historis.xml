@@ -172,7 +172,7 @@
             <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl><rs key="LAKomp" ana="#Bib.Ref #Agent"><hi rend="bold">B. Aehnlich / S. Kösser </hi>(2016): „Das Tool LAKomp und
+                    <bibl><rs key="LAKomp" ana="#Bib.Ref"><hi rend="bold">B. Aehnlich / S. Kösser </hi>(2016): „Das Tool LAKomp und
                         seine Anwendung auf Texte nichtstandardisierter Sprachstufen“. In: DHd 2016.
                         Konferenzabstracts, Leipzig, S. 263–264.</rs></bibl>
                     <bibl><hi rend="bold">V. Faßhauer </hi>(2017): „Compilation, Transcription,

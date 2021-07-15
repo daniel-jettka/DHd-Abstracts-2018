@@ -105,7 +105,7 @@
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl><rs key="CorrespSearch" ana="#Bib.Ref #Agent">
+                    <bibl><rs key="CorrespSearch" ana="#Bib.Ref">
                         <hi rend="bold">Dumont, Stefan.</hi> 2018. „CorrespSearch – Connecting Scholarly Editions of Letters“. Journal of the Text Encoding Initiative 10. [Im Erscheinen].
                     </rs></bibl>
                     <bibl>
